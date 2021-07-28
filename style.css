@@ -1,7 +1,18 @@
 body{
-    color: rgb(255, 174, 0);
+    color: rgb(68, 49, 6);
+    background-color: rgb(151, 190, 78);
+}
+h1{
+    margin-left:40px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+ 
 }
 
+
+h2{
+    margin-left: 400px;
+}
 
 li{
     font-size: 20px;
@@ -9,5 +20,5 @@ li{
 }
 
 li:hover{
-    font-size: 50px;
+    font-size: 30px;
 }
