@@ -1,6 +1,9 @@
 body{
     color: rgb(68, 49, 6);
     background-color: rgb(151, 190, 78);
+
+    margin: 0;
+
 }
 h1{
     margin-left:40px;
@@ -17,8 +20,49 @@ h2{
 li{
     font-size: 20px;
     transition: all 0.2s ease-out;
+
+
+    border-left: 10px solid red;
+
+    margin-top: 30px;
 }
 
 li:hover{
     font-size: 30px;
+}
+
+/*---------------------------------------*/
+
+
+
+
+.menu{
+    /*/
+    border: 1px dotted red;
+    /**/
+
+    box-shadow: grey 5px 0px 20px;
+
+    position: fixed;
+
+    top: 0;
+    width: 300px;
+    height: 100vh;
+
+}
+   
+
+
+.content{
+    /*/
+    border: 1px dotted red;
+    /**/
+
+    margin: 20px;
+    margin-left: 330px;
+
+
+    font-size: 1.5em;
+
+
 }
