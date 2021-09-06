@@ -72,8 +72,7 @@ li:hover{
 
 
 .content{
-    /**/
-
+    /*/
     border: 1px dotted red;
     /**/
 
@@ -81,8 +80,19 @@ li:hover{
     margin-left: 330px;
     padding-left: 5vw;
     padding-right: 5vw;
-    font-size: 1.5em
-    ;
+    font-size: 1.5em;
+    
     text-align: left;
 
+}
+
+
+
+.content img{
+    max-width: 30vw;
+    max-height: 50vh;
+    float: left;
+
+    margin-right: 30px;
+ 
 }
